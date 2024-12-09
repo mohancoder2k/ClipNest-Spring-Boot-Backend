@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.mohan.Repository.VideoRepository"/>
+    <fullyQualifiedTypeName name="com.mohan.Repository.UserRepository"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.mohan.Service.VideoService"/>
+    <fullyQualifiedTypeName name="com.mohan.Service.UserService"/>
+    <fullyQualifiedTypeName name="com.mohan.Entity.Video"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+</qualifiedTypeNameHistroy>

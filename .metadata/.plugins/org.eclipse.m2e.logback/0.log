@@ -1,0 +1,379 @@
+2024-11-15 19:11:52,786 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-15 19:15:05,026 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:15:07,564 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserService/src/main/java
+2024-11-15 19:15:07,565 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/main/resources
+2024-11-15 19:15:07,569 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/main/resources
+2024-11-15 19:15:07,573 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserService/src/test/java
+2024-11-15 19:15:07,574 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/test/resources
+2024-11-15 19:15:10,023 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2024-11-15 19:15:10,034 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-15 19:15:11,016 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:15:12,242 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserService/src/main/java
+2024-11-15 19:15:12,243 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/main/resources
+2024-11-15 19:15:12,243 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/main/resources
+2024-11-15 19:15:12,244 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UserService/src/test/java
+2024-11-15 19:15:12,245 [Worker-2: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UserService/src/test/resources
+2024-11-15 19:15:13,734 [Worker-2: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 2.00 sec, update config takes 0.00 sec 
+2024-11-15 19:15:16,248 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:15:16,298 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:15:16,310 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:15:32,573 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:15:32,601 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:15:32,611 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:16:45,224 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:16:45,237 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:16:45,246 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:16:52,071 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:16:52,085 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:16:52,091 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:16:56,264 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:16:56,279 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:16:56,285 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:17:57,136 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:17:57,149 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:17:57,154 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:18:00,639 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:18:00,647 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:18:00,650 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:18:13,476 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:18:13,484 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:18:13,490 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:18:41,638 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:18:41,654 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:18:41,659 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:18:44,754 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:18:44,760 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:18:44,763 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:18:58,190 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:18:58,196 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:18:58,199 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:19:17,582 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:19:17,588 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:19:17,590 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:19:56,130 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:19:56,139 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:19:56,142 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:20:27,836 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:20:27,845 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:20:27,848 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:21:07,061 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:21:07,075 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:21:07,083 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:21:50,564 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:21:50,574 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:21:50,582 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:21:55,292 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:21:55,303 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:21:55,309 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:22:56,972 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:22:56,983 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:22:56,986 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:23:30,431 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:23:30,439 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:23:30,441 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:23:52,395 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:23:52,402 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:23:52,404 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:24:15,331 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:24:15,339 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:24:15,342 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:24:48,944 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:24:48,956 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:24:48,961 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:25:10,919 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:25:10,926 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:25:10,928 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:25:22,809 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:25:22,816 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:25:22,818 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:25:38,139 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:25:38,153 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:25:38,159 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:25:42,575 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:25:42,581 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:25:42,584 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:26:14,037 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:26:14,042 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:26:14,044 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:28:22,885 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:28:24,093 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:28:24,094 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:28:24,098 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:29:58,278 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:29:58,297 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:29:58,302 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:30:29,288 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:30:29,306 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:30:29,308 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:32:55,365 [Worker-3: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:32:56,445 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:32:56,445 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:32:56,449 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:33:27,182 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:33:27,923 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:33:27,942 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:33:27,946 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:34:03,676 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:34:04,355 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:34:04,410 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:34:04,427 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:34:44,157 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:34:44,917 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:34:44,942 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:34:44,946 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:36:17,550 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:36:18,160 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:36:18,168 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:36:18,172 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:37:05,441 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:37:05,974 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:37:05,987 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:37:05,992 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:37:29,023 [Worker-0: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:37:29,633 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:37:29,644 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:37:29,648 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:38:48,089 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:38:48,708 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:38:48,716 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:38:48,718 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:40:51,335 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:40:51,337 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:40:51,339 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:41:24,028 [Worker-34: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:UserService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\UserService\pom.xml.
+2024-11-15 19:41:24,497 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:41:24,497 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:41:24,499 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:41:38,554 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:41:38,570 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:41:38,572 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:41:47,125 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:41:47,164 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:41:47,171 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 19:43:42,911 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:VideoService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\VideoService\pom.xml.
+2024-11-15 19:43:43,366 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VideoService/src/main/java
+2024-11-15 19:43:43,366 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/main/resources
+2024-11-15 19:43:43,367 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/main/resources
+2024-11-15 19:43:43,371 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VideoService/src/test/java
+2024-11-15 19:43:43,371 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/test/resources
+2024-11-15 19:43:43,562 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2024-11-15 19:43:43,565 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-11-15 19:43:43,737 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:VideoService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\VideoService\pom.xml.
+2024-11-15 19:43:44,000 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VideoService/src/main/java
+2024-11-15 19:43:44,000 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/main/resources
+2024-11-15 19:43:44,001 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/main/resources
+2024-11-15 19:43:44,001 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /VideoService/src/test/java
+2024-11-15 19:43:44,001 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /VideoService/src/test/resources
+2024-11-15 19:43:44,214 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-11-15 19:43:44,592 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:43:44,604 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:43:44,608 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 19:44:03,764 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:44:03,779 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:44:03,782 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 19:47:00,643 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 19:47:00,664 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:47:00,671 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 19:59:55,375 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:VideoService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\VideoService\pom.xml.
+2024-11-15 19:59:55,654 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-11-15 19:59:56,174 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:59:56,175 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 19:59:56,181 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:00:11,180 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:00:11,211 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:00:11,214 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:01:02,068 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:01:02,081 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:01:02,087 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:01:19,262 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:01:19,270 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:01:19,273 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:02:24,172 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:02:24,184 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:02:24,188 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:02:52,959 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:02:52,968 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:02:52,974 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:03:50,629 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:03:50,651 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:03:50,654 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:04:21,259 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:04:21,271 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:04:21,283 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:04:43,830 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:04:43,839 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:04:43,842 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:05:19,216 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:05:19,229 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:05:19,231 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:05:27,698 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:05:27,781 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:05:27,863 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:08:24,758 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:08:24,844 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:08:24,923 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:09:00,132 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:09:00,369 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:09:00,372 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:09:06,322 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:09:06,357 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:09:06,360 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:09:22,633 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:09:22,681 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:09:22,683 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:09:34,993 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:09:35,008 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:09:35,011 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:09:39,983 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:09:40,064 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:09:40,139 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:10:39,538 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:10:39,571 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:10:39,574 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:11:05,529 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:11:05,577 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:11:05,587 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:14:27,313 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 20:14:27,359 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 20:14:27,365 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-15 20:14:56,174 [Worker-49: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:14:56,287 [Worker-49: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 20:14:56,396 [Worker-49: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-15 21:54:59,044 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-15 21:55:19,295 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 21:55:19,471 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 21:55:19,481 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-15 21:55:31,589 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-15 21:55:31,637 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-15 21:55:31,641 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-24 11:55:53,699 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-11-24 11:56:18,812 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 11:56:18,950 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 11:56:18,981 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-11-24 11:59:50,807 [Worker-18: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-11-24 11:59:51,119 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 11:59:51,199 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 11:59:51,205 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:00:39,646 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:00:39,663 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:00:39,672 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:00:59,871 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:00:59,879 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:00:59,883 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:01:14,360 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:01:14,411 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:01:14,417 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:01:27,771 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:01:27,779 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:01:27,785 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:02:11,956 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:02:11,974 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:02:11,980 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:03:36,536 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:03:36,544 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:03:36,549 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:03:49,253 [Worker-26: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:03:49,375 [Worker-26: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:03:49,485 [Worker-26: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:06:22,005 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:06:22,025 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:06:22,037 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:06:34,418 [Worker-31: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:06:34,519 [Worker-31: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:06:34,620 [Worker-31: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:07:39,918 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:07:39,931 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:07:39,935 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:07:48,837 [Worker-35: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:07:48,976 [Worker-35: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:07:49,107 [Worker-35: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:09:21,120 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:VideoService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\VideoService\pom.xml.
+2024-11-24 12:09:21,583 [Worker-31: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-11-24 12:09:22,116 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:09:22,117 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:09:22,125 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:10:05,848 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.mohan:VideoService:0.0.1-SNAPSHOT @ D:\MicroServices\Clipnest\VideoService\pom.xml.
+2024-11-24 12:10:06,464 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-11-24 12:10:06,879 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:10:06,899 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:10:06,904 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:10:14,131 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:10:14,307 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:10:14,454 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:10:44,534 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:10:44,537 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:10:44,540 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:10:55,071 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:10:55,192 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:10:55,311 [Worker-36: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:12:09,099 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:12:09,126 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:12:09,132 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 12:12:16,666 [Worker-5: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:12:16,789 [Worker-5: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:12:16,899 [Worker-5: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 12:34:41,779 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 12:34:41,824 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 12:34:41,830 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 13:03:23,058 [Worker-20: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 13:03:23,161 [Worker-20: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 13:03:23,230 [Worker-20: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-11-24 13:13:59,725 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 13:13:59,921 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 13:13:59,929 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-11-24 13:19:33,191 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-11-24 13:19:33,292 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-11-24 13:19:33,311 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-12-06 18:54:52,684 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-06 18:55:18,060 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-06 18:55:18,101 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-06 18:55:18,109 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\UserService\src\test\resources
+2024-12-06 19:54:38,726 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-12-06 19:54:39,253 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-06 19:54:39,510 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-06 19:54:39,672 [Worker-43: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:22:00,199 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-07 10:28:29,130 [Worker-30: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-12-07 10:28:29,588 [Worker-30: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:28:29,845 [Worker-30: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:28:30,035 [Worker-30: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:38:17,910 [Worker-37: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:38:18,045 [Worker-37: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:38:18,202 [Worker-37: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:56:57,400 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:56:57,546 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:56:57,680 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 10:58:17,981 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-07 10:58:18,109 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-07 10:58:18,114 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-12-07 12:03:49,387 [Worker-80: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:03:49,485 [Worker-80: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:03:49,585 [Worker-80: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:05:29,868 [Worker-78: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:05:29,929 [Worker-78: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:05:29,982 [Worker-78: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:29:31,408 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:29:31,475 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-07 12:29:31,531 [Worker-47: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 13:22:03,477 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-08 13:22:43,450 [Worker-27: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-12-08 13:22:43,597 [Worker-27: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 13:22:43,722 [Worker-27: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 13:22:43,820 [Worker-27: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 13:55:14,678 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-12-08 14:05:52,100 [Worker-15: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier  to /UserService/target/classes
+2024-12-08 14:05:52,307 [Worker-15: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 14:05:52,406 [Worker-15: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 14:05:52,497 [Worker-15: Launching VideoService - VideoServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/UserService: com.mohan:UserService:0.0.1-SNAPSHOT with classifier null to /UserService/target/classes
+2024-12-08 14:11:26,793 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-08 14:11:26,896 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-08 14:11:26,910 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-12-08 14:12:23,667 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-08 14:12:23,740 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-08 14:12:23,747 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-12-08 14:12:33,946 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-08 14:12:33,962 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-08 14:12:33,967 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources
+2024-12-08 14:28:54,245 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-08 14:28:54,554 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-08 14:28:54,568 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\MicroServices\Clipnest\VideoService\src\test\resources

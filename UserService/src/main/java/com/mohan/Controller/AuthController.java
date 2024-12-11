@@ -17,7 +17,7 @@ import com.mohan.Repository.*;
 import com.mohan.Service.*;
 import com.mohan.JWT.*;
 
-@CrossOrigin
+@CrossOrigin(origins = "http://192.168.1.7:3000", allowCredentials = "true")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {

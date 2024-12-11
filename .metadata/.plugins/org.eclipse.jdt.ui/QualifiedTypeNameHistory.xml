@@ -3,9 +3,21 @@
     <fullyQualifiedTypeName name="com.mohan.Repository.VideoRepository"/>
     <fullyQualifiedTypeName name="com.mohan.Repository.UserRepository"/>
     <fullyQualifiedTypeName name="org.apache.catalina.User"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="com.mohan.Service.VideoService"/>
     <fullyQualifiedTypeName name="com.mohan.Service.UserService"/>
     <fullyQualifiedTypeName name="com.mohan.Entity.Video"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="com.twilio.sdk.resource.trunking.v1.trunk.PhoneNumber"/>
+    <fullyQualifiedTypeName name="com.twilio.sdk.resource.lookups.v1.PhoneNumber"/>
+    <fullyQualifiedTypeName name="com.twilio.sdk.resource.api.v2010.account.Message"/>
+    <fullyQualifiedTypeName name="com.twilio.twiml.Message"/>
+    <fullyQualifiedTypeName name="com.twilio.sdk.type.PhoneNumber"/>
+    <fullyQualifiedTypeName name="com.twilio.sdk.Twilio"/>
+    <fullyQualifiedTypeName name="org.apache.tomcat.util.net.openssl.ciphers.Authentication"/>
+    <fullyQualifiedTypeName name="com.mohan.Entity.User"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.mohan.ChatService.JWT.JwtUtil"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 </qualifiedTypeNameHistroy>

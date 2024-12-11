@@ -1,6 +1,5 @@
 package com.mohan.Config;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +20,7 @@ import com.mohan.JWT.*;
 @EnableWebSecurity
 public class SecurityConfig {
 
-    @Bean
+	@Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
@@ -32,9 +31,8 @@ public class SecurityConfig {
             .cors()
             .and()
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/auth/login", "/auth/signup").permitAll()
-                .requestMatchers("/videos/upload").authenticated() // Ensure this is authenticated
-                .anyRequest().authenticated()
+                .requestMatchers("/videos/upload", "/videos/view").authenticated()  // Only authenticated users can upload/view videos
+                .anyRequest().permitAll()
             )
             .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 
@@ -52,6 +50,7 @@ public class SecurityConfig {
     public JwtAuthenticationFilter jwtAuthenticationFilter() throws Exception {
         return new JwtAuthenticationFilter();
     }
+
     @Bean
     public JwtUtil jwtUtil() {
         return new JwtUtil(); // Assuming you have a constructor without parameters
@@ -61,8 +60,8 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.setAllowCredentials(true);
-        configuration.addAllowedOrigin("http://localhost:3001"); // Your frontend's origin
-        configuration.addAllowedOrigin("http://localhost:3000"); // Your other frontend origin if any
+        configuration.addAllowedOrigin("http://localhost:3000"); // Your frontend's origin
+        configuration.addAllowedOrigin("http://192.168.1.7:3000"); // Your other frontend origin if any
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
 
@@ -70,6 +69,4 @@ public class SecurityConfig {
         source.registerCorsConfiguration("/**", configuration);
         return source;
     }
-    
-
 }

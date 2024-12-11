@@ -62,6 +62,7 @@ public class SecurityConfig {
         configuration.setAllowCredentials(true);
         configuration.addAllowedOrigin("http://localhost:3001"); // Your frontend's origin
         configuration.addAllowedOrigin("http://localhost:3000"); // Your other frontend origin if any
+        configuration.addAllowedOrigin("http://192.168.1.7:3000"); 
         configuration.addAllowedHeader("*");
         configuration.addAllowedMethod("*");
 

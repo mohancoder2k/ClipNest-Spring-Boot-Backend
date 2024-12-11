@@ -1,52 +1,35 @@
 package com.mohan.Entity;
 
-
-
-import jakarta.persistence.*;
 import lombok.Data;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 @Data
-@Entity
-@Table(name = "users")
+@Document(collection = "users") // MongoDB annotation for collections
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private String id;
 
-    @Column(nullable = false, unique = true)
     private String username;
-
-    @Column(nullable = false, unique = true)
     private String email;
-
-    @Column(nullable = false)
     private String password;
-
-    @Column(nullable = false)
     private String firstName;
-
-    @Column(nullable = false)
     private String lastName;
-
-    @Lob
-    private byte[] profilePhoto;
-
-    private LocalDateTime createdAt = LocalDateTime.now();
-
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(
-        name = "user_roles",
-        joinColumns = @JoinColumn(name = "user_id"),
-        inverseJoinColumns = @JoinColumn(name = "role_id")
-    )
-    private Set<Role> roles;
+   
+    private byte[] profilePhoto; // Profile photo stored as byte array
+    private LocalDateTime createdAt = LocalDateTime.now(); // Timestamp of when the user is created
+    private Set<Role> roles = new HashSet<>(); // User roles (if required)
 
     // Method to retrieve role names
     public Set<String> getRoleNames() {
+        if (roles == null || roles.isEmpty()) { // Check for null or empty set
+            return new HashSet<>();
+        }
         return roles.stream().map(Role::getName).collect(Collectors.toSet());
     }
 }

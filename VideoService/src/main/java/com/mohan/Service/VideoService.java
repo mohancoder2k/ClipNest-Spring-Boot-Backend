@@ -22,7 +22,7 @@ public class VideoService {
     @Autowired
     private UserRepository userRepository; // Add user repository to fetch user
 
-    public Video uploadVideo(Long userId, String title, MultipartFile videoFile) throws IOException {
+    public Video uploadVideo(String userId, String title, MultipartFile videoFile) throws IOException {
         // Fetch the user from the UserRepository
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("User not found"));
         
@@ -33,12 +33,12 @@ public class VideoService {
         video.setVideoData(videoFile.getBytes()); // Set the video bytes
         return videoRepository.save(video); // Save and return the video
     }
-    public Optional<Video> getVideoById(Long videoId) {
+    public Optional<Video> getVideoById(String videoId) {
         return videoRepository.findById(videoId);
     }
 
     // Fetch all videos uploaded by a specific user
-    public List<Video> getUserVideos(Long userId) {
+    public List<Video> getUserVideos(String userId) {
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("User not found"));
         return videoRepository.findByUserOrderByCreatedAtDesc(user); // Fetch sorted videos by the user
     }
